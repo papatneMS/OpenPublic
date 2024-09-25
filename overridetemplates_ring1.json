@@ -155,7 +155,7 @@
             "declarativeCopilots": [
                 {
                     "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
-                    "fileUrl": "https://service.powerapps.com/"
+                    "file": "test.json"
                 }
             ]
           },
