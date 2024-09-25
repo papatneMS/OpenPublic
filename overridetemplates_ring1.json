@@ -103,7 +103,7 @@
           "resource": "https://service.powerapps.com/"
         },
         "appInstanceDefinition": {
-          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.18/MicrosoftTeams.schema.json",
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
           "accentColor": "{$.accentColor}",
           "authorization": {
             "permissions": {
