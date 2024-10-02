@@ -78,7 +78,10 @@
                         "*.*.botframework.com",
                         "copilotstudio.microsoft.com",
                         "copilotstudio.preview.microsoft.com"
-                    ],
+                    ],"metaCapabilities": {
+                        "copilotExtensions": {},
+                        "declarativeCopilots": {}
+                    },
                     "copilotExtensions": {
                         "declarativeCopilots": [
                             {
