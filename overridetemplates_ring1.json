@@ -79,13 +79,8 @@
                         "copilotstudio.microsoft.com",
                         "copilotstudio.preview.microsoft.com"
                     ],
-                    "copilotExtensions": {
-                        "declarativeCopilots": [
-                            {
-                                "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
-                                "file": "https://raw.githubusercontent.com/papatneMS/OpenPublic/refs/heads/main/declarativeCopilot_0.json"
-                            }
-                        ]
+                   "metaCapabilities": {
+                        "copilotExtensions": {}
                     },
                     "version": "{$.version}",
                     "webApplicationInfo": {
