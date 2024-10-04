@@ -80,15 +80,8 @@
                         "copilotstudio.preview.microsoft.com"
                     ],
                     "metaCapabilities": {
-                        "copilotExtensions": {}
-                    },
-                    "copilotExtensions": {
-                        "declarativeCopilots": [
-                            {
-                                "id": "46936c37-db47-4480-b394-d2599376a87c",
-                                "file": "https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-canarycus-d1-dbff3de14756dc2eb039b84cd11d6cae/views/original"
-                            }
-                        ]
+                        "copilotExtensions": {},
+                        "declarativeCopilots":{}
                     },
                     "version": "{$.version}",
                     "webApplicationInfo": {
