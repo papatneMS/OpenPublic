@@ -79,10 +79,6 @@
                         "copilotstudio.microsoft.com",
                         "copilotstudio.preview.microsoft.com"
                     ],
-                    "metaCapabilities": {
-                        "copilotExtensions": {},
-                        "declarativeCopilots": {}
-                    },
                     "version": "{$.version}",
                     "webApplicationInfo": {
                         "id": "{$.webApplicationInfo.id}",
