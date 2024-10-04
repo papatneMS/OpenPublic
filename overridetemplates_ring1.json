@@ -81,7 +81,7 @@
                     ],
                     "metaCapabilities": {
                         "copilotExtensions": {},
-                        "declarativeCopilots":{}
+                        "declarativeCopilots": {}
                     },
                     "version": "{$.version}",
                     "webApplicationInfo": {
