@@ -3,7 +3,7 @@
     "templatedAppDefinitions": [
       {
         "version": "0.0.5",
-        "id": "0fa58992-1b03-41e1-8b1d-4aa556715d20",
+        "id": "0fa58992-1b03-41e1-8b1d-4aa556715d21",
         "name": "Shared Power Apps (Int)",
         "shortDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
         "longDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
@@ -95,7 +95,7 @@
       },
       {
         "version": "0.0.7",
-        "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8",
+        "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd9",
         "name": "Shared Copilots (Int)",
         "developerName": "Microsoft Corporation",
         "shortDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
@@ -182,7 +182,7 @@
       },
       {
         "version": "0.0.6",
-        "id": "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
+        "id": "09e19d1e-ea5e-4adf-af47-fb8dd013362f",
         "name": "Shared Copilot Extensions (Int)",
         "developerName": "Microsoft Corporation",
         "isBlockable": false,
@@ -276,7 +276,7 @@
       },
       {
         "version": "0.0.1",
-        "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+        "id": "d6949b98-b305-43dc-a291-4c6cff67f89e",
         "name": "SharePoint Agent (Int)",
         "developerName": "Microsoft Corporation",
         "isBlockable": false,
