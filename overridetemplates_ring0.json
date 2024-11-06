@@ -106,8 +106,8 @@
           "authModel": "powerapps"
         },
         "searchTemplatedAppsUrl": {
-          "urlTemplate": "https://tip1.api.powerapps.com/botApps?api-version=2020-06-01",
-          "authModel": "powerapps"
+          "urlTemplate": "⁠{baseUrl}/powerapps/curatedBots?api-version=1",
+          "authModel": "powerplatform"
         },
         "webApplicationInfo": {
           "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
@@ -198,8 +198,8 @@
           "authModel": "powerapps"
         },
         "searchTemplatedAppsUrl": {
-          "urlTemplate": "https://tip1.api.powerapps.com/gptApps?api-version=2020-06-01",
-          "authModel": "powerapps"
+          "urlTemplate": "{baseUrl}/powerapps/curatedGpts?api-version=1",
+          "authModel": "powerplatform"
         },
         "webApplicationInfo": {
           "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
