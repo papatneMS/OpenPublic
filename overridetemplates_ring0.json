@@ -4,7 +4,7 @@
       {
         "version": "0.0.5",
         "id": "0fa58992-1b03-41e1-8b1d-4aa556715d20",
-        "name": "Shared Power Apps (Int)",
+        "name": "Shared Power Apps (Inta)",
         "shortDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
         "longDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
         "developerName": "Microsoft Corporation",
@@ -14,8 +14,8 @@
           "authModel": "powerapps"
         },
         "searchTemplatedAppsUrl": {
-          "urlTemplate": "https://tip2.api.powerapps.com/teamsApps?api-version=2020-06-01",
-          "authModel": "powerapps"
+          "urlTemplate": "{baseUrl}/powerApps/curatedGpts?api-version=1",
+          "authModel": "powerplatform"
         },
         "webApplicationInfo": {
           "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
