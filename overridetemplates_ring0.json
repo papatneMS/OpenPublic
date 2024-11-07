@@ -114,7 +114,7 @@
                     "authModel": "powerapps"
                 },
                 "searchTemplatedAppsUrl": {
-                    "urlTemplate": "{baseUrl}/powerapps/curatedBots?api-version=1",
+                    "urlTemplate": "{baseUrl}/powerapps/curatedGpts?api-version=1",
                     "authModel": "powerplatform"
                 },
                 "webApplicationInfo": {
