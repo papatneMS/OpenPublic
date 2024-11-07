@@ -14,7 +14,7 @@
           "authModel": "powerapps"
         },
         "searchTemplatedAppsUrl": {
-          "urlTemplate": "{baseUrl}/powerApps/curatedGpts?api-version=1",
+          "urlTemplate": "{baseUrl}/powerApps/curatedBots?api-version=1",
           "authModel": "powerplatform"
         },
         "webApplicationInfo": {
