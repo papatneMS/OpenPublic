@@ -181,9 +181,6 @@
           "webApplicationInfo": {
             "id": "{$.webApplicationInfo.id}",
             "resource": "{$.webApplicationInfo.resource}"
-          },
-         "copilotAgents": {
-            "customEngineAgents": [{ "type": "{$.copilotAgents.customEngineAgents[0].type", "id": "{$.copilotAgents.customEngineAgents[0].id}" }]
           }
         }
       },
