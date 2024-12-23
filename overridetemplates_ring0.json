@@ -110,7 +110,7 @@
           "authModel": "powerplatform"
         },
         "getAppPackageUrl": {
-          "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
           "authModel": "powerapps"
         },
         "webApplicationInfo": {
