@@ -111,6 +111,7 @@
         },
         "getAppPackageUrl": {
           "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+          "fallbackToTemplateInstanceEndPoint":true,
           "authModel": "powerapps"
         },
         "webApplicationInfo": {
