@@ -201,6 +201,11 @@
           "urlTemplate": "{baseUrl}/powerapps/curatedBots?api-version=1",
           "authModel": "powerplatform"
         },
+         "getAppPackageUrl": {
+          "urlTemplate": "https://api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+          "fallbackToTemplateInstanceEndPoint":true,
+          "authModel": "powerapps"
+        },
         "webApplicationInfo": {
           "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
           "resource": "https://service.powerapps.com/"
