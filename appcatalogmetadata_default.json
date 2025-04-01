@@ -89,6 +89,11 @@
                     "f6405520-7907-4464-8f6e-9889e2fb7d8f",
                     "0fa58992-1b03-41e1-8b1d-4aa556715d20"
                 ]
+            },
+            "sharePointAppsDiscovery": {
+                "customCopilotTemplateAppIds": [
+                    "d6949b98-b305-43dc-a291-4c6cff67f88e"
+                ]
             }
         }
     }
