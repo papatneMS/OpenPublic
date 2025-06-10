@@ -1,6 +1,100 @@
 {
   "value": {
     "templatedAppDefinitions": [
+       {
+        "version": "0.0.6",
+        "id": "1ef3c012-7ba0-4e29-b6e7-e724183ab93f",
+        "name": "Shared Copilot Extensions (MOS)",
+        "developerName": "Microsoft Corporation",
+        "isBlockable": false,
+        "shortDescription": "The Copilots Extensions (PPE) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "longDescription": "The Copilots Extensions (PPE) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
+          "authModel": "powerapps"
+        },
+        "getAppPackageUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "{baseUrl}/powerapps/curatedGpts?api-version=1",
+          "authModel": "powerplatform"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "requiredServicePlanIdSets": [
+          {
+            "requiredServicePlanIds": [
+              "3f30311c-6b1e-48a4-ab79-725b469da960"
+            ]
+          }
+        ],
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+          "accentColor": "{$.accentColor}",
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
+              }
+            },
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [ "{$.bots[0].scopes}" ],
+              "supportsFiles": true,
+              "registrationInfo": {
+                "source":"microsoftCopilotStudio",
+                "environment": "{$.bots[0].registrationInfo.environment}"
+              }
+            }
+          ],
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "id": "{$.id}",
+          "manifestVersion": "devPreview",
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "permissions": [
+            "identity",
+            "messageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "*.*.botframework.com",
+            "copilotstudio.test.microsoft.com",
+            "copilotstudio.preprod.microsoft.com",
+            "copilotstudio.dev.microsoft.com",
+            "copilotstudio.microsoft.com",
+            "copilotstudio.preview.microsoft.com"
+          ],
+          "version": "{$.version}",
+          "webApplicationInfo": {
+            "id": "{$.webApplicationInfo.id}",
+            "resource": "{$.webApplicationInfo.resource}"
+          }
+        }
+      },
       {
         "version": "0.0.5",
         "id": "0fa58992-1b03-41e1-8b1d-4aa556715d20",
