@@ -2,9 +2,9 @@
     "value": {
         "appDefinitions": [
             {
-                "version": "1.0.0",
+                "version": "2.0.0",
                 "id": "d166b1f1-b3de-4b49-97e2-1de962279dc2",
-                "name": "Digital Worker BluePrint",
+                "name": "Digital Worker BluePrint with BOT",
                 "developerName": "Microsoft Corporation",
                 "isBlockable": false,
                 "shortDescription": "This MOS Extensions app in your organization’s app store serves as the entry point for all agent shared apps created using Microsoft Copilot Studio (MCS)/TTK via MOS.",
@@ -38,3 +38,4 @@
         ]
     }
 }
+
