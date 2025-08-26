@@ -10,6 +10,14 @@
                 "shortDescription": "This MOS Extensions app in your organization’s app store serves as the entry point for all agent shared apps created using Microsoft Copilot Studio (MCS)/TTK via MOS.",
                 "longDescription": "This MOS Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
                 "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+                "bots": [
+                    {
+                        "botId": "d166b1f1-b3de-4b49-97e2-1de962279dc2",
+                        "registrationInfo": {
+                            "source": "agenticEntraBluePrint"
+                        }
+                    }
+                ],
                 "appInstanceDefinition": {
                     "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
                     "manifestVersion": "devPreview",
