@@ -2,39 +2,188 @@
     "value": {
         "appDefinitions": [
             {
-                "version": "2.0.0",
-                "id": "d166b1f1-b3de-4b49-97e2-1de962279dc2",
-                "name": "Digital Worker BluePrint with BOT",
-                "developerName": "Microsoft Corporation",
-                "isBlockable": false,
-                "shortDescription": "This MOS Extensions app in your organization’s app store serves as the entry point for all agent shared apps created using Microsoft Copilot Studio (MCS)/TTK via MOS.",
-                "longDescription": "This MOS Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
-                "bots": [
-                    {
-                        "botId": "d166b1f1-b3de-4b49-97e2-1de962279dc2",
-                        "registrationInfo": {
-                            "source": "agenticEntraBluePrint"
-                        }
-                    }
-                ],
-                "appInstanceDefinition": {
-                    "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
-                    "manifestVersion": "devPreview",
-                    "name": {
-                        "short": "{$.name.short}",
-                        "full": "{$.name.full}"
-                    },
-                    "bots": [
-                        {
-                            "botId": "d166b1f1-b3de-4b49-97e2-1de962279dc2",
-                            "registrationInfo": {
-                                "source": "agenticEntraBluePrint"
-                            }
-                        }
-                    ]
-                }
-            }
+    "manifestVersion": "devPreview",
+    "version": "1.0.8",
+    "categories": [
+      "Productivity",
+      "Utilities"
+    ],
+    "supportedHubs": [],
+    "developerName": "Microsoft Corporation",
+    "developerUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+    "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+    "bots": [
+      {
+        "id": "1f596be5-e7dc-4c5c-886f-655908ec77b1",
+        "scopes": [
+          "GroupChat"
+        ],
+        "commandLists": [
+          {
+            "scopes": [
+              "GroupChat"
+            ],
+            "commands": [
+              {
+                "title": "Summarize the latest messages",
+                "description": " ",
+                "type": "basic"
+              },
+              {
+                "title": "List the latest action items",
+                "description": " ",
+                "type": "basic"
+              },
+              {
+                "title": "Search the web for",
+                "description": " ",
+                "type": "basic"
+              },
+              {
+                "title": "Search my messages and documents for",
+                "description": " ",
+                "type": "basic"
+              },
+              {
+                "title": "Draft an email for",
+                "description": " ",
+                "type": "basic"
+              }
+            ]
+          }
+        ],
+        "isNotificationOnly": false,
+        "supportsCalling": true,
+        "supportsVideo": true,
+        "supportsFiles": true,
+        "supportsSessions": false,
+        "supportsTargetedMessages": false
+      }
+    ],
+    "isFullScreen": false,
+    "isFullTrust": false,
+    "inputExtensions": [
+      {
+        "botId": "1f596be5-e7dc-4c5c-886f-655908ec77b1",
+        "scopes": [
+          "Personal",
+          "Team",
+          "GroupChat"
+        ],
+        "commands": [],
+        "messageHandlers": [],
+        "type": "botBased"
+      }
+    ],
+    "isMicrosoftOwned": true,
+    "webApplicationInfo": {
+      "id": "1f596be5-e7dc-4c5c-886f-655908ec77b1",
+      "resource": "api://botid-1f596be5-e7dc-4c5c-886f-655908ec77b1"
+    },
+    "showLoadingIndicator": false,
+    "supportedLanguages": [
+      "en-us"
+    ],
+    "activities": {
+      "activityItems": [
+        {
+          "type": "systemDefault",
+          "description": "Other activities",
+          "templateText": "{systemDefaultText}"
+        }
+      ]
+    },
+    "authorization": {
+      "permissions": {
+        "resourceSpecific": [
+          {
+            "name": "TeamsActivity.Send.User",
+            "type": "Application"
+          },
+          {
+            "name": "OnlineMeetingParticipant.Read.Chat",
+            "type": "Delegated"
+          },
+          {
+            "name": "ChatMessage.Read.Chat",
+            "type": "Application"
+          },
+          {
+            "name": "OnlineMeetingNotification.Send.Chat",
+            "type": "Application"
+          },
+          {
+            "name": "OnlineMeeting.ReadBasic.Chat",
+            "type": "Application"
+          },
+          {
+            "name": "OnlineMeetingTranscript.Read.Chat",
+            "type": "Application"
+          },
+          {
+            "name": "ChannelMeetingTranscript.Read.Group",
+            "type": "Application"
+          },
+          {
+            "name": "ChannelMessage.Read.Group",
+            "type": "Application"
+          }
+        ]
+      }
+    },
+    "isAppIOSAcquirable": true,
+    "metaCapabilities": {
+      "bots": {
+        "scopes": [
+          "GroupChat"
+        ]
+      },
+      "messageExtensions": {
+        "scopes": [
+          "Personal",
+          "Team",
+          "GroupChat"
+        ]
+      }
+    },
+    "isCopilotEnabled": false,
+    "supportsChannelLevelActivation": false,
+    "appSourceDetails": {
+      "appSource": "Unknown",
+      "appType": "Default"
+    },
+    "features": [
+      {
+        "title": "Create",
+        "description": "Generate messages, notes, and images."
+      },
+      {
+        "title": "Q&A",
+        "description": "Answer questions about workflows, apps, and tools."
+      },
+      {
+        "title": "Search and summarize",
+        "description": "Find files, messages and meeting notes, and summarize your chat history."
+      }
+    ],
+    "agenticUserTemplates": [],
+    "acquisitionTitleState": "Unknown",
+    "agentConnectors": [],
+    "capabilities": [],
+    "agentSkills": [],
+    "thirdPartyLicenses": [],
+    "shortDescription": "Collaborate with Copilot and colleagues in Teams chat",
+    "longDescription": "When you add Copilot to your chats in Microsoft Teams, you bring Copilot capabilities into a shared conversation. Use Copilot with your team to ask questions as a group, generate content, summarize insights and takeaways, and more, all within your Teams chat.\n<b>What Copilot in Teams chat can do</b>\n• Answer questions and find info: Ask Copilot questions in chat by typing @Copilot. It will comb through the asker’s accessible emails, documents, Teams messages, and internet content to provide a helpful answer for the group. No more digging through files – the team gets the info on the spot.\n• Summarize conversations: Ask @Copilot to “summarize this chat” or “give us the key decisions from this discussion,” and it will post a concise recap that everyone in the chat can see.\n• Plan and generate content: Copilot can draft meeting agendas, weekly plans, or to-do lists based on your chat context. It can even turn a shared document or chat history into a FAQ or outline. This helps the team prepare materials without starting from scratch. \n<b>How it works</b>\nAdd Copilot to any 1:1, or group chat. Once added, anyone in the chat can @mention it to ask for help. Copilot’s answers are grounded in the data that the asking user can access, ensuring responses are personalized and secure. If an answer includes content not all members can see, Copilot will quietly show a preview to the asker for approval before sharing it with everyone, so confidential data stays protected.\n<b>Requirements</b>\nCopilot in Team's chat is a Microsoft 365 Copilot experience. It requires an active Microsoft 365 Copilot license for the user invoking it. Your Microsoft 365 admin may also need to enable the Copilot app in the Teams Admin Center for it to be available to your organization. Currently, Copilot supports English only.\"\n",
+    "accentColor": "#ffffff",
+    "id": "4046041d-19bb-4afe-a8d6-f464d894f139",
+    "name": "Copilot",
+    "smallImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/4046041d-19bb-4afe-a8d6-f464d894f139/v5y+n8kqfergqrpabet58w+bwsxfvg0xsmvpz5rwlmmx0=/noop-536598c2-27ca-4bb2-a0e0-ce5c6f3c9f42/apps/ring0/4046041d-19bb-4afe-a8d6-f464d894f139/4046041d-19bb-4afe-a8d6-f464d894f139_smallimage.png",
+    "largeImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/4046041d-19bb-4afe-a8d6-f464d894f139/v5y+n8kqfergqrpabet58w+bwsxfvg0xsmvpz5rwlmmx0=/noop-d33b5931-ce44-4e03-a3a6-2f0182e8b570/apps/ring0/4046041d-19bb-4afe-a8d6-f464d894f139/4046041d-19bb-4afe-a8d6-f464d894f139_largeimage.png",
+    "isCoreApp": false,
+    "state": "PreConsented",
+    "isMobileOnly": false
+  }
         ]
     }
 }
