@@ -88,6 +88,94 @@
                 "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
                 "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
                 "isMobileOnly": false
+            },
+             {
+                "manifestVersion": "devPreview",
+                "version": "1.0.0",
+                "supportedChannelTypes": [
+                    "SharedChannels",
+                    "PrivateChannels"
+                ],
+                "supportedHubs": [
+                    "Teams"
+                ],
+                "developerName": "Microsoft",
+                "developerUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+                "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+                "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+                "validDomains": [
+                    "*.botframework.com",
+                    "login.microsoftonline.com",
+                    "*.*.botframework.com"
+                ],
+                "permissions": [
+                    "Identity",
+                    "MessageTeamMembers"
+                ],
+                "bots": [
+                    {
+                        "id": "3914e2ec-62b6-4dec-96c1-5710a9c532ef",
+                        "scopes": [
+                            "Team",
+                            "GroupChat"
+                        ],
+                        "isNotificationOnly": false,
+                        "supportsCalling": false,
+                        "supportsVideo": false,
+                        "supportsFiles": false,
+                        "requireGroupSecurity": false,
+                        "registrationInfo": {
+                            "environment": "00000000-0000-0000-0000-000000000000"
+                        },
+                        "supportsSessions": false,
+                        "supportsTargetedMessages": false
+                    }
+                ],
+                "isFullScreen": false,
+                "webApplicationInfo": {
+                    "id": "3914e2ec-62b6-4dec-96c1-5710a9c532ef",
+                    "resource": "api://botid-3914e2ec-62b6-4dec-96c1-5710a9c532ef"
+                },
+                "showLoadingIndicator": false,
+                "mpnId": "",
+                "activities": {
+                    "activityItems": [
+                        {
+                            "type": "systemDefault",
+                            "description": "Other activities",
+                            "templateText": "{systemDefaultText}"
+                        }
+                    ]
+                },
+                "defaultBlockUntilAdminAction": false,
+                "metaCapabilities": {
+                    "bots": {
+                        "scopes": [
+                            "Team",
+                            "GroupChat"
+                        ]
+                    }
+                },
+                "isCopilotEnabled": false,
+                "supportsChannelLevelActivation": true,
+                "appSourceDetails": {
+                    "appSource": "ProjectAgent",
+                    "appType": "TemplatedInstance"
+                },
+                "agenticUserTemplates": [],
+                "acquisitionTitleState": "Unknown",
+                "agentConnectors": [],
+                "capabilities": [],
+                "agentSkills": [],
+                "thirdPartyLicenses": [],
+                "shortDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
+                "longDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
+                "accentColor": "#FFFFFF",
+                "id": "111d280d-3c8e-42cf-SAP0-ce7073959111",
+                "name": "SAP Concur (papatne)",
+                "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
+                "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
+                "isMobileOnly": false
             }
         ]
     }
