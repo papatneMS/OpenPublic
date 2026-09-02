@@ -147,7 +147,7 @@
                         }
                     ]
                 },
-                "defaultBlockUntilAdminAction": false,
+                "defaultBlockUntilAdminAction": true,
                 "metaCapabilities": {
                     "bots": {
                         "scopes": [
