@@ -79,6 +79,7 @@
                 "agentConnectors": [],
                 "capabilities": [],
                 "agentSkills": [],
+                "supportsChannelFeatures": "tier1",
                 "thirdPartyLicenses": [],
                 "shortDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
                 "longDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
