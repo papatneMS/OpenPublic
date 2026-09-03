@@ -1,6 +1,210 @@
 {
     "value": {
         "appDefinitions": [
+        {
+  "manifestVersion": "1.25",
+  "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+  "version": "1.3.24",
+  "name": "Copilot(Facilitator)",
+  "accentColor": "#FFFFFF",
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": [
+        {
+          "name": "TeamsActivity.Send.User",
+          "type": "Application"
+        },
+        {
+          "name": "ChannelMessage.Read.Group",
+          "type": "Application"
+        },
+        {
+          "name": "ChatMessage.Read.Chat",
+          "type": "Application"
+        },
+        {
+          "name": "OnlineMeeting.ReadBasic.Chat",
+          "type": "Application"
+        },
+        {
+          "name": "OnlineMeetingNotification.Send.Chat",
+          "type": "Application"
+        },
+        {
+          "name": "OnlineMeetingParticipant.Read.Chat",
+          "type": "Application"
+        },
+        {
+          "name": "ChannelMeetingTranscript.Read.Group",
+          "type": "Application"
+        },
+        {
+          "name": "OnlineMeetingTranscript.Read.Chat",
+          "type": "Application"
+        },
+        {
+          "name": "File.Read.Chat",
+          "type": "Application"
+        }
+      ]
+    }
+  },
+  "bots": [
+    {
+      "commandLists": [
+        {
+          "commands": [
+            {
+              "description": " ",
+              "title": "Highlights from the conversation"
+            },
+            {
+              "description": " ",
+              "title": "Show the open items in a table"
+            },
+            {
+              "description": " ",
+              "title": "What decisions were made?"
+            }
+          ],
+          "scopes": [
+             "Team",
+                            "GroupChat"
+          ]
+        },
+        {
+          "commands": [
+            {
+              "description": " ",
+              "title": "Highlights from the conversation"
+            },
+            {
+              "description": " ",
+              "title": "Show the open items in a table"
+            },
+            {
+              "description": " ",
+              "title": "What decisions were made?"
+            }
+          ],
+          "scopes": [
+             "Team",
+                            "GroupChat"
+          ]
+        }
+      ],
+      "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+      "isNotificationOnly": false,
+      "scopes": [
+        "groupChat",
+        "team"
+      ],
+      "supportsCalling": true,
+      "supportsFiles": true,
+      "supportsVideo": true
+    }
+  ],
+  "categories": [
+    "Productivity",
+    "Utilities"
+  ],
+  "developerName": "Microsoft Corporation",
+  "developerUrl": "https://www.microsoft.com",
+  "inputExtensions": [
+    {
+      "botId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+      "canUpdateConfiguration": true,
+      "commands": [],
+      "fetchCommands": false,
+      "messageHandlers": [],
+      "scopes": []
+    }
+  ],
+  "isAppIOSAcquirable": true,
+  "isBlockable": true,
+  "isCoreApp": false,
+  "isFullScreen": false,
+  "isFullTrust": false,
+  "isPinnable": false,
+  "isPreinstallable": true,
+  "isTeamsOwned": true,
+  "isTenantConfigurable": true,
+  "languageTag": "en-us",
+  "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.3.24",
+  "longDescription": "Facilitator participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
+  "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+  "publisherType": "FirstParty",
+  "requiredServicePlanIdSets": [
+    {
+      "requiredServicePlanIds": [
+        "b95945de-b3bd-46db-8437-f2beb6ea2347"
+      ]
+    }
+  ],
+  "shortDescription": "Handles tasks you used to handle so you can focus on the conversation.",
+  "showLoadingIndicator": false,
+  "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.3.24",
+  "supportsChannelFeatures": "tier1",
+  "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+  "webApplicationInfo": {
+    "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+    "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
+  },
+  "publishingPolicy": {
+    "releaseType": "preview"
+  },
+  "supportedLanguages": [
+    "sq-al",
+    "ar",
+    "az-latn-az",
+    "eu-es",
+    "bg",
+    "ca",
+    "zh",
+    "hr",
+    "cs",
+    "da",
+    "nl",
+    "en",
+    "et",
+    "fil",
+    "fi",
+    "fr",
+    "gl-es",
+    "ka-ge",
+    "de",
+    "el",
+    "he",
+    "hi",
+    "hu",
+    "is",
+    "id",
+    "it",
+    "ja",
+    "kk-kz",
+    "ko",
+    "lv",
+    "lt",
+    "mk-mk",
+    "nb",
+    "nn",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sr",
+    "sk",
+    "sl",
+    "es",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "cy",
+    "en-us"
+  ]
+},
             {
                 "manifestVersion": "devPreview",
                 "version": "1.0.0",
@@ -89,96 +293,7 @@
                 "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
                 "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
                 "isMobileOnly": false
-            },
-             {
-                "manifestVersion": "devPreview",
-                "version": "1.0.0",
-                "supportedChannelTypes": [
-                    "SharedChannels",
-                    "PrivateChannels"
-                ],
-                "supportedHubs": [
-                    "Teams"
-                ],
-                "developerName": "Microsoft",
-                "developerUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
-                "privacyUrl": "https://privacy.microsoft.com/privacystatement",
-                "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
-                "validDomains": [
-                    "*.botframework.com",
-                    "login.microsoftonline.com",
-                    "*.*.botframework.com"
-                ],
-                "permissions": [
-                    "Identity",
-                    "MessageTeamMembers"
-                ],
-                "bots": [
-                    {
-                        "id": "3914e2ec-62b6-4dec-96c1-5710a9c532ef",
-                        "scopes": [
-                            "Team",
-                            "GroupChat"
-                        ],
-                        "isNotificationOnly": false,
-                        "supportsCalling": false,
-                        "supportsVideo": false,
-                        "supportsFiles": false,
-                        "requireGroupSecurity": false,
-                        "registrationInfo": {
-                            "environment": "00000000-0000-0000-0000-000000000000"
-                        },
-                        "supportsSessions": false,
-                        "supportsTargetedMessages": false
-                    }
-                ],
-                "isFullScreen": false,
-                "webApplicationInfo": {
-                    "id": "3914e2ec-62b6-4dec-96c1-5710a9c532ef",
-                    "resource": "api://botid-3914e2ec-62b6-4dec-96c1-5710a9c532ef"
-                },
-                "showLoadingIndicator": false,
-                "mpnId": "",
-                "activities": {
-                    "activityItems": [
-                        {
-                            "type": "systemDefault",
-                            "description": "Other activities",
-                            "templateText": "{systemDefaultText}"
-                        }
-                    ]
-                },
-                "defaultBlockUntilAdminAction": true,
-                "metaCapabilities": {
-                    "bots": {
-                        "scopes": [
-                            "Team",
-                            "GroupChat"
-                        ]
-                    }
-                },
-                "isCopilotEnabled": false,
-                "supportsChannelLevelActivation": true,
-                "appSourceDetails": {
-                    "appSource": "ProjectAgent",
-                    "appType": "TemplatedInstance"
-                },
-                "agenticUserTemplates": [],
-                "acquisitionTitleState": "Unknown",
-                "agentConnectors": [],
-                "capabilities": [],
-                "agentSkills": [],
-                "thirdPartyLicenses": [],
-                "shortDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
-                "longDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
-                "accentColor": "#FFFFFF",
-                "id": "111d280d-3c8e-42cf-SAP0-ce7073959111",
-                "name": "SAP Concur (papatne)",
-                "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
-                "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
-                "isMobileOnly": false
             }
         ]
     }
 }
-
