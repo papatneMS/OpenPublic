@@ -243,8 +243,8 @@
                         "registrationInfo": {
                             "environment": "00000000-0000-0000-0000-000000000000"
                         },
-                        "supportsSessions": false,
-                        "supportsTargetedMessages": false
+                        "supportsSessions": true,
+                        "supportsTargetedMessages": true
                     }
                 ],
                 "isFullScreen": false,
