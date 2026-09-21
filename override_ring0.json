@@ -5,7 +5,7 @@
   "manifestVersion": "1.25",
   "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
   "version": "1.3.27",
-  "name": "Copilot (Facilitator)",
+  "name": "Copilot(Facilitator test)",
   "accentColor": "#FFFFFF",
   "authorization": {
     "permissions": {
@@ -68,8 +68,7 @@
             }
           ],
           "scopes": [
-             "Team",
-                            "GroupChat"
+            "groupChat"
           ]
         },
         {
@@ -88,8 +87,7 @@
             }
           ],
           "scopes": [
-             "Team",
-                            "GroupChat"
+            "team"
           ]
         }
       ],
@@ -101,6 +99,7 @@
       ],
       "supportsCalling": true,
       "supportsFiles": true,
+      "supportsTargetedMessages": true,
       "supportsVideo": true
     }
   ],
@@ -108,11 +107,7 @@
     "Productivity",
     "Utilities"
   ],
- "defaultGroupCapability": {
-          "groupchat": "bot",
-          "meetings": "bot",
-          "team": "bot"
-        },
+  "defaultGroupCapability": {},
   "developerName": "Microsoft Corporation",
   "developerUrl": "https://www.microsoft.com",
   "inputExtensions": [
@@ -135,8 +130,8 @@
   "isTeamsOwned": true,
   "isTenantConfigurable": true,
   "languageTag": "en-us",
-  "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.3.24",
-  "longDescription": "Facilitator participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
+  "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.3.27",
+  "longDescription": "Copilot participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
   "privacyUrl": "https://privacy.microsoft.com/privacystatement",
   "publisherType": "FirstParty",
   "requiredServicePlanIdSets": [
@@ -148,15 +143,12 @@
   ],
   "shortDescription": "Handles tasks you used to handle so you can focus on the conversation.",
   "showLoadingIndicator": false,
-  "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.3.24",
+  "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.3.27",
   "supportsChannelFeatures": "tier1",
   "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
   "webApplicationInfo": {
     "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
     "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
-  },
-  "publishingPolicy": {
-    "releaseType": "preview"
   },
   "supportedLanguages": [
     "sq-al",
