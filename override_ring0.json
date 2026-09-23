@@ -4,8 +4,8 @@
         {
   "manifestVersion": "1.25",
   "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-  "version": "1.3.28",
-  "name": "Copilot(Facilitator v2)",
+  "version": "1.3.29",
+  "name": "Copilot(Facilitator 0923)",
   "accentColor": "#FFFFFF",
   "authorization": {
     "permissions": {
